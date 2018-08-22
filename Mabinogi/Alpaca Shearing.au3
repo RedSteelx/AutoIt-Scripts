@@ -52,12 +52,13 @@ $timeCounter = $timeCounter + 4
 
 If $timeCounter = 120 Then
 	Send("{Esc}")
+	Sleep(2000)
 	Send(1)
 	Sleep(6000)
 	Send("{Esc}")
 	$timeCounter = 0
 	EndIf
-If $counter == 225 Then Exit
+If $counter == 200 Then Exit
 
 WEnd
 
